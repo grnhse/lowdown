@@ -26,6 +26,9 @@ module Lowdown
       cert.not_before = Time.now
       cert.not_after  = cert.not_before + 3600
       cert.public_key = key.public_key
+      # DEBUGGING PURPOSES ONLY
+      cert.serial = OpenSSL::BN.new(1)
+      # END DEBUGGING
       cert.sign(key, OpenSSL::Digest::SHA1.new)
 
       # Make it a Universal Certificate

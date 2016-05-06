@@ -30,10 +30,10 @@ GEM
       timers (>= 4.1.1)
     celluloid-supervision (0.20.5)
       timers (>= 4.1.1)
-    hitimes (1.2.3)
+    hitimes (1.2.3-java)
     http-2 (0.8.1)
     minitest (5.8.4)
-    nio4r (1.2.0)
+    nio4r (1.2.0-java)
     parser (2.3.0.2)
       ast (~> 2.2)
     powerpack (0.1.1)
@@ -50,6 +50,7 @@ GEM
     yard (0.8.7.6)
 
 PLATFORMS
+  java
   ruby
 
 DEPENDENCIES
@@ -61,4 +62,4 @@ DEPENDENCIES
   yard
 
 BUNDLED WITH
-   1.11.2
+   1.12.2
